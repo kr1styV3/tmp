@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.logo {
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+
+main {
+    margin: 20px 0;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.carousel {
+    margin: 40px 0;
+}
+
+.carousel h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+.carousel-item {
+    margin: 0 10px;
+    flex: 0 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.carousel-item p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
