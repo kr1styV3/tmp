@@ -40,14 +40,6 @@ main {
     border-radius: 5px;      /* Optional: Add rounded corners */
 }
 
-
-.artists {
-    margin: 40px 0;
-    text-align: center; /* Center content */
-    background-color: #000; /* Black background */
-    color: #fff;           /* White text */
-}
-
 .artist-intro {
     width: 150px;
     height: auto;
@@ -76,14 +68,6 @@ main {
 }
 
 /* Hover effect to expand the container and display full text */
-.artist a {
-    color: #fff; /* White link text */
-}
-
-.artist a:hover {
-    color: #ccc; /* Slightly lighter on hover */
-}
-
 .artist-info:hover {
     max-height: none; /* Remove height restriction */
     height: auto;
@@ -97,30 +81,19 @@ main {
     display: block;
 }
 
-
-/* Carousel Section */
-.carousel {
-    margin: 50px 0;
-/* Carousel Styling */
-}
-.carousel-container {
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-    width: calc(100% - 40px); /* Full width minus 20px padding on each side */
-    margin: 0 auto;
-    padding: 0 20px; /* Padding around the carousel container */
+/* Link Styling */
+.artist a {
+    color: #fff; /* White link text */
 }
 
-.carousel-container img {
-    width: calc(25% - 10px); /* Each image takes 25% width minus a small margin */
-    height: auto;
-    transition: transform 0.5s ease-in-out;
-    object-fit: cover;
-    border-radius: 5px;
-    margin: 0 10px; /* Adds space between the images */
+.artist a:hover {
+    color: #ccc; /* Slightly lighter on hover */
 }
 
-.carousel-container img:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
 }
