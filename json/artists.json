@@ -1,30 +1,40 @@
 {
-    "logo": "../img/ex4/4_logo.jpg",
-    "description": "Temporane /Terza edizione\nDopo il successo delle prime due esposizioni, abbiamo deciso di allargare i nostri confini, con due giorni dedicati dedicati alla Street Art in compagnia di Ninjaz, caposaldo della scena fiorentina, e ViperHaze, il nostro primo ospite proveniente da fuori città. \nVi aspettiamo il 29 e il 30 Giugno, a partire dalle 17.00!",
+    "logo": "../img/ex6/6_logo.jpg",
+    "description": "",
     "artists": [
         {
-            "name": "viper",
-            "photo": "../img/ex4/4_artist_0.jpg",
-            "short_desc": "Viper come artista nasce nel 2006 in un contesto Hip Hop Urbano. Brianza , la sua zona, è principalmente immersa nella natura, fonte d d'ispirazione per tutta la sua arte.",
-            "full_desc": "Viper come artista nasce nel 2006 in un contesto Hip Hop Urbano. Brianza , la sua zona, è principalmente immersa nella natura, fonte d d'ispirazione per tutta la sua arte.Essa gli ha insegnato e insegna tutt'oggi ad armonizzare i colori,è la sua principale maestra, forse la più importante.\nIl suo viaggio inizia dalla voglia di lasciare un segno riconoscibile ed indelebile in una società in continua trasformazione. La missione è quella di colorare qualsiasi superficie, dandogli una nuova armonia molto spessa persa per via dell'urbanizzazione.\nNel tempo sviluppa la sua forma d'arte astratta, principalmente caratterizzata dalle costruzione geometrica di linee e sfere distribuite nello spazio. Ogni forma è studiata nei suoi minimi particolari e il colore gioca un ruolo molto importante in tutto ciò. Durante il suo cammino ricco d d'esperienza colorate ha fatto sì che potesse arrivare a fare lavori su commissione per privati e aziende importanti."
+            "name": "codak_smith",
+            "photo": "../img/ex6/6_artist_0.jpg",
+            "short_desc": "è un artista multidisciplinare che lavora nella pittura contemporanea, nella street art, nei murales, nel design, nei tatuaggi e nelle installazioni artistiche. ",
+            "full_desc": " è un artista multidisciplinare che lavora nella pittura contemporanea, nella street art, nei murales, nel design, nei tatuaggi e nelle installazioni artistiche.  Da un background familiare nel campo dell'architettura e dell'interior design e da un'infanzia piena di fumetti, skateboard e viaggi in autobus nella sua Portland, OR, Codak ha sviluppato una precoce passione per la linea. Sebbene la linea sia spesso considerata un elemento formale e fondamentale compreso oggettivamente, Codak ha visto l'ambiguità e il mistero intrinseci nell'infinita possibilità di ogni linea data e nel modo in cui si muove, modella, rende e successivamente emoziona. Oltre a sfogliare le pagine dell'influente libro Spraycan Art (1987) e al suo rapporto con lo skateboard, Codak è stato intuitivamente attratto dai graffiti nel 1988: la sua immediatezza, l'interazione diretta con il paesaggio urbano e la sensibilità grafica.\n\nEvolvendosi in un gruppo di artisti di graffiti di Los Angeles e Portland, Codak ha sviluppato le basi del suo vocabolario visivo e della sua estetica che sono il fondamento del suo lavoro oggi. La natura grafica dei suoi graffiti basati su lettere lo ha portato a conseguire una laurea in design grafico, dove ha ampliato la sua comprensione dei principi della forma, della composizione e della teoria del colore. Ciò ha portato l’artista a spingere e trascinare le forme delle lettere con cui lavorava da anni oltre i loro confini di leggibilità e verso l’astrazione. Codak ha iniziato a dipingere, incorporando elementi trovati dall'effimero del paesaggio urbano con la sua sensibilità progettuale ampliata e un'estetica dei graffiti al centro del suo lessico visivo. Questa integrazione estetica si è manifestata nella pratica coerente ma in continua evoluzione dell’artista che si realizza attraverso i media, dai dipinti ai tatuaggi alle installazioni artistiche, e ha prodotto uno stile distintivo che ha fatto guadagnare a Codak una reputazione importante e inimitabile. Sia che lavori in modo astratto o figurato, il lavoro di Codak è definito da un senso acuto delle proprietà e delle possibilità della linea e da un approccio intuitivo alla composizione."
         },
         {
-            "name": "ninjaz",
-            "photo": "../img/ex4/4_artist_1.jpg",
-            "short_desc": "Ninjaz, classe '86, fiorentino dalla nascita si avvicina ai graffiti nel '98.END",
-            "full_desc": "Ninjaz, classe '86, fiorentino dalla nascita si avvicina ai graffiti nel '98.\nLa sua passione per il disegno si evolve sempre più negli anni, rimane di sempre fedele all'utilizzo dello spray.\nNel 2007,fonda la crew \"Fun Cool Color\", realizzando commissioni comunali rilevanti. Nel 2013, crea il collettivo \"400 drops\" per avvicinare il graffitismo alle istituzioni. Ha partecipato a mostre collettive, è stato docenti di spray art nel 2019 all'Accademia Delle Belle Arti di firenze e ha esposto in mostre, comprese una personale presso Street Levels Gallery nel dicembre del 2017."
+            "name": "temporanea.firenze's profile picture",
+            "photo": "../img/ex6/6_artist_1.jpg",
+            "short_desc": "@bue2530Bue2530 ha iniziato come writer nel sud Italia. Ha studiato all'Accademia di Belle Arti di Firenze,",
+            "full_desc": "Bue2530 ha iniziato come writer nel sud Italia. Ha studiato all'Accademia di Belle Arti di Firenze, città in cui vive e dove lavora come tatuatore e artista. Il suo universo creativo si ispira al mondo animale.\nArtista poliedrico, opera a Uovo Studios, il suo grande studio di tatuaggi, galleria , laboratorio d’arte e officina di tattoo machines vicino a Firenze a Pontassieve."
         }
     ],
     "carousel_images": [
-        "../img/ex4/4_0.jpg",
-        "../img/ex4/4_1.jpg",
-        "../img/ex4/4_2.jpg",
-        "../img/ex4/4_3.jpg",
-        "../img/ex4/4_4.jpg",
-        "../img/ex4/4_5.jpg",
-        "../img/ex4/4_6.jpg",
-        "../img/ex4/4_7.jpg",
-        "../img/ex4/4_8.jpg",
-        "../img/ex4/4_9.jpg"
+        "../img/ex6/6_0.jpg",
+        "../img/ex6/6_1.jpg",
+        "../img/ex6/6_2.jpg",
+        "../img/ex6/6_3.jpg",
+        "../img/ex6/6_4.jpg",
+        "../img/ex6/6_5.jpg",
+        "../img/ex6/6_6.jpg",
+        "../img/ex6/6_7.jpg",
+        "../img/ex6/6_8.jpg",
+        "../img/ex6/6_9.jpg",
+        "../img/ex6/6_10.jpg",
+        "../img/ex6/6_11.jpg",
+        "../img/ex6/6_12.jpg",
+        "../img/ex6/6_13.jpg",
+        "../img/ex6/6_14.jpg",
+        "../img/ex6/6_15.jpg",
+        "../img/ex6/6_16.jpg",
+        "../img/ex6/6_17.jpg",
+        "../img/ex6/6_18.jpg",
+        "../img/ex6/6_19.jpg"
     ]
 }

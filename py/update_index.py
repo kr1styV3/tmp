@@ -8,7 +8,7 @@ HTML_DIR = os.path.join(BASE_DIR, '../html')
 IMG_DIR = '../img/'
 
 # List of exhibitions in order (current -> previous -> others)
-exhibitions = ['2_0', '1_0', '3_0', '4_0']  # Modify as needed
+exhibitions = ['6_0''5_0''2_0', '1_0', '3_0', '4_0']  # Modify as needed
 
 def update_index():
     # Read the index.html content

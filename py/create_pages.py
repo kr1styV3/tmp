@@ -33,7 +33,7 @@ def generate_exhibition_page(artist_data, page_id):
 
         <main>
             <!-- Artists Section -->
-    '''
+        '''
     # Add each artist
     for artist in artist_data['artists']:
         template += f'''
