@@ -4,10 +4,10 @@ import random
 
 # Define paths relative to the 'py' folder, with absolute path resolution
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Get the directory of the current script
-HTML_DIR = os.path.join(BASE_DIR, '../html')  # Folder where exhibition pages are stored
-CSS_DIR = os.path.join(BASE_DIR, '../css')  # Folder where CSS files are stored
-JS_DIR = os.path.join(BASE_DIR, '../js')  # Folder where JS files are stored
-JSON_FILE = os.path.join(BASE_DIR, '../json/artists.json')  # Data file for exhibitions
+HTML_DIR = os.path.join(BASE_DIR, '../../html')  # Folder where exhibition pages are stored
+CSS_DIR = os.path.join(BASE_DIR, '../../css')  # Folder where CSS files are stored
+JS_DIR = os.path.join(BASE_DIR, '../../js')  # Folder where JS files are stored
+JSON_FILE = os.path.join(BASE_DIR, '../../json/artists.json')  # Data file for exhibitions
 
 # Load artist data from the JSON file
 def load_artist_data(json_file):
@@ -209,7 +209,7 @@ def generate_js_file(page_id):
 
     # Construct the image paths based on the user input
     image_paths = [
-        f'../img/ex{exhibition_num}/{exhibition_num}_{i}.jpg' for i in range(num_images)
+        f'../../img/ex{exhibition_num}/{exhibition_num}_{i}.jpg' for i in range(num_images)
     ]
 
     # Generate the JS content

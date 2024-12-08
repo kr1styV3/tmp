@@ -3,12 +3,12 @@ from bs4 import BeautifulSoup
 
 # Define paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INDEX_FILE = os.path.join(BASE_DIR, '../index.html')
-HTML_DIR = os.path.join(BASE_DIR, '../html')
-IMG_DIR = '../img/'
+INDEX_FILE = os.path.join(BASE_DIR, '../../index.html')
+HTML_DIR = os.path.join(BASE_DIR, '../../html')
+IMG_DIR = '../../img/'
 
 # List of exhibitions in order (current -> previous -> others)
-exhibitions = ['6_0''5_0''2_0', '1_0', '3_0', '4_0']  # Modify as needed
+exhibitions = ['7_0', '6_0', '5_0', '2_0', '1_0', '3_0', '4_0']  # Modify as needed
 
 def update_index():
     # Read the index.html content
@@ -34,7 +34,7 @@ def update_index():
         hero_content = soup.new_tag('div', **{'class': 'hero-content'})
 
         # Corrected image filename
-        img_src = f"../img/ex{exhibition_number}/{exhibition_number}_logo.jpg"
+        img_src = f"../../img/ex{exhibition_number}/{exhibition_number}_logo.jpg"
         hero_image = soup.new_tag('img', src=img_src, alt="Featured Art", **{'class': 'hero-image'})
 
         hero_description = soup.new_tag('div', **{'class': 'hero-description'})
@@ -65,7 +65,7 @@ def update_index():
 
             carousel_item = soup.new_tag('div', **{'class': 'carousel-item'})
             link = soup.new_tag('a', href=f"html/{exhibition}.html")
-            img_src = f"../img/ex{exhibition_number}/{exhibition_number}_logo.jpg"  # Corrected filename
+            img_src = f"../../img/ex{exhibition_number}/{exhibition_number}_logo.jpg"  # Corrected filename
             img = soup.new_tag('img', src=img_src, alt=f"Exhibition {exhibition}")
             caption = soup.new_tag('p')
             caption.string = f"Exhibition {exhibition}"

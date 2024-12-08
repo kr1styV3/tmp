@@ -135,3 +135,45 @@ footer {
     color: #fff;
     padding: 10px 0;
 }
+
+/* Add styles for the logo inside the header */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px; /* Add spacing between the logo and text */
+}
+
+.logo-image {
+    width: 125px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    object-fit: contain; /* Ensure the logo maintains its aspect ratio */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px; /* Spacing between icons */
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Spacing between icon and text */
+    font-size: 1rem;
+}
+
+.footer-link:hover {
+    color: #f39c12; /* Highlight color on hover */
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+

@@ -28,8 +28,8 @@ def main():
 
     # Set base directories based on your directory structure
     # From tmp/py/ to tmp/img/ and tmp/json/
-    img_dir = os.path.abspath(os.path.join(script_dir, '../img/'))
-    json_dir = os.path.abspath(os.path.join(script_dir, '../json/'))
+    img_dir = os.path.abspath(os.path.join(script_dir, '../../img/'))
+    json_dir = os.path.abspath(os.path.join(script_dir, '../../json/'))
 
     # Ensure the directories exist
     if not os.path.isdir(img_dir):
@@ -94,7 +94,7 @@ def main():
         # Add artist data to the list
         artist_data = {
             'name': artist_name,
-            'photo': f'../img/ex{next_ex_num}/{artist_image_filename}',
+            'photo': f'../../img/ex{next_ex_num}/{artist_image_filename}',
             'short_desc': short_desc,
             'full_desc': full_desc
         }
@@ -120,7 +120,7 @@ def main():
         normal_image_dest_path = os.path.join(new_ex_folder, normal_image_filename)
         shutil.copyfile(normal_image_path, normal_image_dest_path)
         # Add image path to carousel_images list
-        carousel_images.append(f'../img/ex{next_ex_num}/{normal_image_filename}')
+        carousel_images.append(f'../../img/ex{next_ex_num}/{normal_image_filename}')
         normal_image_counter += 1
 
     # Step 6: Update the artists.json file
@@ -129,7 +129,7 @@ def main():
 
     # Construct the data
     artists_json_data = {
-        "logo": f"../img/ex{next_ex_num}/{logo_filename}",
+        "logo": f"../../img/ex{next_ex_num}/{logo_filename}",
         "description": exhibition_description,
         "artists": artists,
         "carousel_images": carousel_images

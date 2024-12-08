@@ -1,0 +1,31 @@
+{
+    "logo": "../img/ex7/7_logo.jpg",
+    "description": "",
+    "artists": [
+        {
+            "name": "",
+            "photo": "../img/ex7/7_artist_0.jpg",
+            "short_desc": "\n",
+            "full_desc": ""
+        },
+        {
+            "name": "",
+            "photo": "../img/ex7/7_artist_1.jpg",
+            "short_desc": "",
+            "full_desc": ""
+        },
+        {
+            "name": "",
+            "photo": "../img/ex7/7_artist_2.jpg",
+            "short_desc": "",
+            "full_desc": ""
+        },
+        {
+            "name": "",
+            "photo": "../img/ex7/7_artist_3.jpg",
+            "short_desc": "",
+            "full_desc": ""
+        }
+    ],
+    "carousel_images": []
+}
