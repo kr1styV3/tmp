@@ -5,7 +5,10 @@
         padding: 0;
         box-sizing: border-box;
     }
-
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
     body {
         font-family: Arial, sans-serif;
         background-color: #fff;
@@ -113,4 +116,3 @@
     .carousel-container img:hover {
         transform: scale(1.05);
     }
-    

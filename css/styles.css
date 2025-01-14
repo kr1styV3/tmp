@@ -6,13 +6,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
-    color: #000;
+    background-color: #4b4b4b;
+    color: #fff;
     text-align: center;
 }
 
 header {
-    padding: 20px;
+    padding: 30px;
     background-color: #000;
     color: #fff;
 }
@@ -20,8 +20,8 @@ header {
 .logo {
     font-size: 2.5rem;
     letter-spacing: 5px;
+    color: #fff;
 }
-
 main {
     margin: 20px 0;
 }
@@ -30,12 +30,12 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #000; /* Dark background */
-    border-radius: 10px; /* Smooth rounded corners */
-    margin: 20px auto; /* Center section and add spacing */
-    max-width: 800px; /* Limit the width for focus */
-    position: relative; /* For controlling inner gaps */
+    background-color: #4b4b4b;
+    border-radius: 10px;
+    margin: 20px auto; /* Center horizontally */
+    max-width: 1200px;
 }
+
 
 .hero-content {
     display: flex;
@@ -65,9 +65,29 @@ main {
     line-height: 1.5; /* Improve readability */
 }
 
-.hero-description p {
-    margin: 0;
+h2 {
+    margin: 25px 20px; /* Add some vertical spacing */
+    font-size: 2rem; /* Adjust font size as needed */
+    text-align: center; /* Center-align text */
+    line-height: 1.5; /* Improve readability */
 }
+h3 {
+    margin: 25px 20px; /* Add some vertical spacing */
+    font-size: 1.8rem; /* Adjust font size as needed */
+    text-align: center; /* Center-align text */
+    line-height: 1.5; /* Improve readability */
+}
+
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.2rem; /* Smaller text on mobile */
+    }
+    h3 {
+        font-size: 1.2rem; /* Smaller text on mobile */
+    }
+}
+
 
 
 
@@ -85,6 +105,23 @@ main {
     .hero-description {
         text-align: center; /* Center-align text on smaller screens */
         width: 100%;
+    }
+    .logo {
+        font-size: 1rem;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px; /* Add spacing between the logo and text */
+    }
+
+    .logo-image {
+        width: 150px; /* Adjust size as needed */
+        height: 125px; /* Adjust size as needed */
+        object-fit: contain; /* Ensure the logo maintains its aspect ratio */
     }
 }
 
@@ -173,8 +210,8 @@ footer {
 }
 
 .logo-image {
-    width: 125px; /* Adjust size as needed */
-    height: 100px; /* Adjust size as needed */
+    width: 250px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
     object-fit: contain; /* Ensure the logo maintains its aspect ratio */
 }
 
